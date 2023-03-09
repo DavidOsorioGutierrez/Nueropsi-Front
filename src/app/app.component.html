@@ -1,12 +1,19 @@
-<h1>Prueba 01</h1>
-
-<router-outlet></router-outlet>
-
-<nav>
-  <a class="button" routerLink="/aplicacion-p-list">Aplicación de Pruebas</a>
-  <a class="button" routerLink="/aplicacion-p-list">Aplicación de Pruebas</a>
-  <a class="button" routerLink="/aplicacion-p-list">Aplicación de Pruebas</a>
-  <a class="button" routerLink="/aplicacion-p-list">Aplicación de Pruebas</a>
-  <a class="button" routerLink="/aplicacion-p-list">Aplicación de Pruebas</a>
-  <a class="button" routerLink="/aplicacion-p-list">Aplicación de Pruebas</a>
-</nav>
+<html lang="en">
+  <head>
+    <h1>Prueba 01</h1>
+    <link rel="stylesheet" href="app.component.css">
+  </head>
+<section class="container">
+  <div class="sidebar">
+  <ul>
+  <router-outlet></router-outlet>
+  <li><a  class="siderbar" routerLink="/control-t-list">Control de Terapeutas</a></li>
+  <li><a  class="siderbar" routerLink="/control-c-list">Control de Clientes</a></li>
+  <li><a  class="siderbar" routerLink="/aplicacion-p-list">Aplicación de Pruebas</a></li>
+  <li><a  class="siderbar" routerLink="/resultado-a-list">Resultado de Análisis</a></li>
+  <li><a  class="siderbar" routerLink="/consulta-p-list">Consulta Post Terapeuta</a></li>
+  <li><a  class="siderbar" routerLink="/conf-list">Configuración</a></li>
+</ul>
+  </div>
+</section>
+</html>
